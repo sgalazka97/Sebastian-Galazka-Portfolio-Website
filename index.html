@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+ 
+<body>
+    <div class="hero-section">
+        <header class="header">
+            <button id="hamburger-button"><i class="material-icons">menu</i> </button>
+            <nav class="nav-bar" >
+                <a class="nav-link" name="about-section" >About</a>
+                <a class="nav-link" name="projects-section" >Projects</a>
+                <a class="nav-link" name="skills-section" >Skills</a>
+                <a class="nav-link" name="contact-section" >Contact</a>
+            </nav>
+         
+            <img class="logo" src="./Portfolio-Images/SGPW_Logo3.svg" h="100" w="125" />
+            <div class="social-media-links">
+                <a class="social-media-link"><img src="./Portfolio-Images/icons8-linkedin-svg.svg" title="LinkedIn" /></a>
+                <a class="social-media-link"><img src="Portfolio-Images/icons8-github-svg.svg" title="GitHub" /></a>
+            </div>
+        </header>
+        <div class="hero-text-container invisible" style="transition:0.75s">
+            <h2>Hello, I'm Sebastian</h2>
+            <h3>Welcome to My Portfolio Website</h3>
+            <p>I am an avid digital designer, web designer, and developer based in New York, U.S.A.</p>
+        </div>
+    </div>
+    <main>
+        <section id="about-section">
+            <h2>About Me</h2>
+            <div class="profile  flx-dir-cl">
+                 <img src="Portfolio-Images/Profile-Image-5.png"  style="background-color: ;"/>
+               <div class="profile-list-container">
+                   <div class="profile-lists">
+                       <div class="profile-list-element">
+                           <h3>College/University</h3>
+                           <h4>CUNY Queens College</h4>
+                       </div>
+                       <div class="profile-list-element">
+                           <h3>Degree/Main Study</h3>
+                           <h4>B.A in Computer Science </h4>
+                       </div>
+                       <div class="profile-list-element">
+                           <h3>GPA</h3>
+                           <h4>3.13</h4>
+                       </div>
+                   </div>
+                   <div class="profile-lists-2">
+                       <h3>Career Interests</h3>
+                       <ul>
+                           <li>Web Development</li>
+                           <li>Software Engineering</li>
+                           <li>UI/UX Design</li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+           <div class="paragraph-container">
+               <!---- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.Duis cursus, mi</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.Duis cursus, mi</p> -->
+                <p class="invisible">My journey in web development started in my early undergraduate years when I became interested in web design and development. As I became more interested in web design, I found myself drawn to the world of coding and programming. I then pursued a degree in computer science where I honed my skills in both web and software development and gained a deeper understanding of the technologies behind it</p>
+                <p class="invisible">After graduation, I continued to improve my skills by creating my own websites and web apps, learning new languages and technologies along the way. Today, I am proud to say that I have developed a diverse range of skills in web design, web development, and software engineering. </p>
+            </div>
+        </section>
+        <section id="projects-section">
+            <h2> My Projects</h2>
+            <div class="paragraph-container invisible" style="transition:0.5s">
+                <p>Below are a couple of web apps and website mockups I have been working on. I have designed and developed them using the appropriate tools. </p>    
+            </div>
+            <div class="projects-grid-container">
+             <div class="project-card">
+                    <img src="Portfolio-Images/black-and-white-folder-icon-9.jpg" />
+                    <div class="project-info">
+                        <h3> CAD Inc</h3>
+                        <p>An engaging web layout for a small contracting company.</p>
+                        <a class="link-button" target="_blank" href="https://www.figma.com/file/5AqMYwtVhpOV4KMhaob020/CAD-Interiors?type=design&node-id=0%3A1&t=np0E7TaKmNBmAwA2-1">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Portfolio-Images/black-and-white-folder-icon-9.jpg" />
+                    <div class="project-info">
+                        <h3> Studio Website</h3>
+                        <p> A web layout for a rehearsal and recording business, merging innovation and aesthetics to entice and engage clientele through an immersive online experience. </p>
+                        <a class="link-button" target="_blank" href="https://www.figma.com/file/eota3sh9nJoHpLj2r10JJV/Studio-Website?type=design&node-id=903%3A216&t=np0E7TaKmNBmAwA2-1">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Portfolio-Images/black-and-white-folder-icon-9.jpg" />
+                    <div class="project-info">
+                        <h3> LIMOU </h3>
+                        <p></p>
+                        <a class="link-button" target="_blank" href="https://www.figma.com/file/4Tws5Z7yrau5Rq4xx0pPer/Cooking-Website?type=design&node-id=0%3A1&t=np0E7TaKmNBmAwA2-1">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Portfolio-Images/black-and-white-folder-icon-9.jpg" />
+                    <div class="project-info">
+                        <h3>To-Do App</h3>
+                        <p>A web application using React.js where users can create,manage,and organise their tasks efficiently.  </p>
+                        <a class="link-button" target="_blank" href="https://replit.com/@SebastianGalazk/ToDo-list-1">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="skills-section">
+            <h2>My Expertise</h2>
+            <div class="skill-card-container  flx-dir-cl">
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>UI/UX Design</h3>
+                        <img src="./Portfolio-Images/7106362_layout_infographic_data_ui_element_icon-svg-svg-svg.jpg" />
+                    </div>
+                    <p> I start by researching and understanding the needs and preferences of the target users. I then create wireframes and prototypes to test and iterate on the design.</p>
+                </div>
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>Graphic Design</h3>
+                        <img src="./Portfolio-Images/2849820_pen_pencil_write_draw_design_icon-svg-svg.jpg" />
+                    </div>
+                    <p>I work on designing and creating visually appealing and user-friendly websites.I do this by designing wireframes and mockups that capture the look and feel of the website.  </p>
+                </div>
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>Web Dev</h3>
+                        <img src="./Portfolio-Images/9178381_dev_code_development_programming_web_icon-svg-svg-svg.jpg" />
+                    </div>
+                    <p>I use languages such as HTML and CSS to build the front-end of the website or web application. I build to be responsive and scalable that meets client's need.  </p>
+                </div>
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>Agile Dev</h3>
+                        <img src="./Portfolio-Images/iteration.png" />
+                    </div>
+                    <p> I work in short development cycles to ensure every application or software is continuously tested and improved. I prioritise continuous feedback and iteration.</p>
+                </div>
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>Problem Solving</h3>
+                        <img src="./Portfolio-Images/puzzle%20(1).png" />
+                    </div>
+                    <p>I encounter challenges that require analytical thinking and innovative solutions. Problem-solving helps me formulate efficient and scalable solutions. </p>
+                </div>
+                <div class="skill-card invisible">
+                    <div>
+                        <h3>Adaptability</h3>
+                        <img src="Portfolio-Images/Portfolio%20Website%20Icons/adaptation%20(1).png" />
+                    </div>
+                    <p>I constantly adapt to new technologies that are being released.I learn new technologies, frameworks, and programming languages to deliver high-quality work.</p>
+                </div>
+            </div>
+            <!----<div class="paragraph-container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.Duis cursus, mi</p>
+            </div>-->
+            <div class="skill-list-container">
+                <div class="skill-list">
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/81763_html_icon.png" />
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/308436_css_front-end_long%20shadow_web_web%20technology_icon.png" />
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/js.png" />
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/java%20(1).png" />
+                        <h4>Java</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/python.png" />
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/c-sharp.png" />
+                        <h4>C#</h4>
+                    </div>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/kisspng-mongodb-document-oriented-database-nosql-openshift-web-app-development-servcie-in-dehradun-5ca1b8cb8a0f32.3708278115541024755655.png" />
+                        <h4>MongoDB</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/bootstrap.png" />
+                        <h4>BootStrap</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="Portfolio-Images/" />
+                        <h4>React.js</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/node-js.png" />
+                        <h4>Node.js</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/js-file.png" />
+                        <h4>Express.js</h4>
+                    </div>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/939747_microsoft_studio_visual_windows%20icon_icon.png" />
+                        <h4>Visual Studio</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/1298743_github_git_logo_social_icon.png" />
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/7564187_figma_logo_brand_icon.png" />
+                        <h4>Figma</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/photoshop.png" />
+                        <h4>Photoshop</h4>
+                    </div>
+                    <div class="skill-list-element">
+                        <img src="./Portfolio-Images/illustrator.png" />
+                        <h4>Illustrator</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-section">
+            <div class="contact-info-container">
+                <div class="contact-info-text  invisible"  style="transition:0.5s">
+                    <p>Have any questions and want to learn more about me?</p>
+                    <h3>Contact Me</h3>
+                </div>
+                <p></p>
+                <div class="contact-info-list profile-lists invisible " style="transition:0.5s">
+                    <p>Call or email if would like to reach me </p>
+                    <div class="profile-list-element">
+                        <h3>Email</h3>
+                        <h4>SGalazka97@gmail.com</h4>
+                    </div>
+                    <div class="profile-list-element">
+                        <h3>Phone</h3>
+                        <h4>(347)-622-2106</h4>
+                    </div>
+                </div>
+            </div>
+            <form action="/action_page.php" >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your last email..">
+
+                <label for="message">Subject</label>
+                <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <button class="submit-button" > Submit </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo-container">
+            <img src="Portfolio-Images/SGPW_Logo2.png">
+            <p>Copyright 2022-2024   Sebastian Galazka's Portfolio Webiste</p>
+        </div>
+        
+    </footer>
+
+
+
+
+</body>
+
+<script src="script.js" ></script>
+
+    
+</html>
